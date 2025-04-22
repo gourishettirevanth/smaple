@@ -6,4 +6,4 @@ response = client.list_buckets()
 
 # Print bucket name
 for bucket in response['Buckets']:
-    print(bucket['Name'])
+    print(bucket['Name'])False
